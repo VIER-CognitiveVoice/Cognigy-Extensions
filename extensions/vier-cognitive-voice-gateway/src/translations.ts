@@ -228,6 +228,12 @@ export default {
             'default': "Accept Answering Machines",
             'deDE': "Anrufbeantworter akzeptieren",
         },
+        inputBargeInConfidenceDescription: {
+            'default': "Allows the audio to be interrupted by pressing keys",
+        },
+        inputBargeInConfidenceLabel: {
+            'default': "Confidence Threshold",
+        },
         inputBargeInOnDtmfDescription: {
             'default': "To allow the caller to interrupt the audio file by pressing keys, activate this checkbox.",
             'deDE': "Damit der:die Anrufer:in die Audiodatei durch Drücken von Tasten unterbrechen kann, aktivieren Sie diese Checkbox.",
@@ -243,6 +249,12 @@ export default {
         inputBargeInOnSpeechLabel: {
             'default': "Allow the speaker to interrupt the audio file by speaking",
             'deDE': "Dem:Der Sprecher:in erlauben, die Audiodatei durch Sprechen zu unterbrechen",
+        },
+        inputBargeInPhraseListDescription: {
+            'default': "Allows the audio to be interrupted by pressing keys",
+        },
+        inputBargeInPhraseListLabel: {
+            'default': "Phrase List",
         },
         inputCallerIdDescription: {
             'default': "Enter the phone number that should be displayed to the callee. (This is a best-effort option. A correct display can not be guaranteed.)",

@@ -281,6 +281,28 @@ export default {
             'deDE': "Gesprächsaufzeichnung anhalten oder beenden",
         },
     },
+    refer: {
+        inputDestinationDescription: {
+            'default': "The destination to transfer to (+E.164 number or SIP URI)",
+        },
+        inputDestinationLabel: {
+            'default': "Destination",
+        },
+        nodeLabel: {
+            'default': "Refer Call",
+        },
+        nodeSummary: {
+            'default': "Transfer the call to a different destination using SIP REFER",
+        },
+    },
+    referService: {
+        nodeLabel: {
+            'default': "Check Refer Result",
+        },
+        nodeSummary: {
+            'default': "Check the result of the call refer",
+        },
+    },
     sendData: {
         inputDataDescription: {
             'default': "Enter an object with arbitrary properties. Each property must have a string value.",

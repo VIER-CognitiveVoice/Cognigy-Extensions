@@ -287,6 +287,7 @@ export default {
         },
         inputDestinationLabel: {
             'default': "Destination",
+            'deDE': "Ziel",
         },
         nodeLabel: {
             'default': "Refer Call",

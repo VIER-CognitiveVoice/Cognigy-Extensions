@@ -291,7 +291,8 @@ export default {
             'deDE': "Ziel",
         },
         nodeLabel: {
-            'default': "Refer Call",
+            'default': "Forward Call (SIP REFER)",
+            'deDE': "Anruf weiterleiten (SIP-REFER)",
         },
         nodeSummary: {
             'default': "Forward the call to a different destination using SIP REFER",
@@ -300,10 +301,12 @@ export default {
     },
     referService: {
         nodeLabel: {
-            'default': "Check Refer Result",
+            'default': "Check Forward Result",
+            'deDE': "Weiterleitungsergbnis prüfen",
         },
         nodeSummary: {
-            'default': "Check the result of the call refer",
+            'default': "Check the result of the call forward",
+            'deDE': "Ergebnis der Anrufweiterleitung prüfen",
         },
     },
     sendData: {

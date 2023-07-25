@@ -4,7 +4,7 @@ export default {
     aggregateInput: {
         enableFieldDescription: {
             'default': "To activate the aggregation of utterances, activate this switch.",
-            'deDE': "Um die Aggregation von Aussagen einzuschalten, aktivieren Siese diesen Schalter.",
+            'deDE': "Um die Aggregation von Aussagen einzuschalten, aktivieren Sie diesen Schalter.",
         },
         enableFieldLabel: {
             'default': "Enable or disable the utterance aggregation",
@@ -283,7 +283,8 @@ export default {
     },
     refer: {
         inputDestinationDescription: {
-            'default': "The destination to transfer to (+E.164 number or SIP URI)",
+            'default': "Enter the phone number you want to forward the call to (with country code or SIP URI).",
+            'deDE': "Geben Sie die Rufnummer ein, an die weitergeleitet werden soll (mit Ländervorwahl oder SIP-URI).",
         },
         inputDestinationLabel: {
             'default': "Destination",
@@ -293,7 +294,8 @@ export default {
             'default': "Refer Call",
         },
         nodeSummary: {
-            'default': "Transfer the call to a different destination using SIP REFER",
+            'default': "Forward the call to a different destination using SIP REFER",
+            'deDE': "Anruf mittels SIP-REFER an ein anderes Ziel weiterleiten",
         },
     },
     referService: {
@@ -432,7 +434,7 @@ export default {
             'deDE': "Zeitüberschreitung",
         },
         inputWhisperingTextDescription: {
-            'default': "Enter the text that should be announced to the agent the call is transfered to before the call partners are connected.",
+            'default': "Enter the text that should be announced to the agent the call is forwarded to before the call partners are connected.",
             'deDE': "Geben Sie den Text ein, der dem:der Agent:in bei der Weiterleitung angesagt werden soll, bevor die Gesprächspartner:innen verbunden werden.",
         },
         inputWhisperingTextLabel: {

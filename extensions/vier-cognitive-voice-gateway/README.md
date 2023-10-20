@@ -35,11 +35,6 @@ Please note that [CVG sends events to Cognigy](https://cognitivevoice.io/docs/co
 			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
 		</tr>
         <tr>
-			<td style="border: 1px solid #ddd; padding: 8px;">Barge-in by DTMF</td>
-			<td style="border: 1px solid #ddd; padding: 8px;">If checked, the playing of the audio file can be interrupted by pressing keys.</td>
-			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
-		</tr>
-        <tr>
 			<td style="border: 1px solid #ddd; padding: 8px;">Barge-in confidence treshhold</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">The minimum transcription confidence that must be reached to barge-in.</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
@@ -52,6 +47,11 @@ Please note that [CVG sends events to Cognigy](https://cognitivevoice.io/docs/co
         <tr>
 			<td style="border: 1px solid #ddd; padding: 8px;">Phrase list from context</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">Context variable that contains a list of phrases that trigger a barge-in.</td>
+			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
+		</tr>
+        <tr>
+			<td style="border: 1px solid #ddd; padding: 8px;">Barge-in by pressing keys</td>
+			<td style="border: 1px solid #ddd; padding: 8px;">If checked, the playing of the audio file can be interrupted by pressing keys.</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
 		</tr>
 	</tbody>
@@ -157,11 +157,6 @@ The  audio file is subject to caching, which means repeated use of the same URL 
 			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
 		</tr>
         <tr>
-			<td style="border: 1px solid #ddd; padding: 8px;">Barge-in by pressing keys</td>
-			<td style="border: 1px solid #ddd; padding: 8px;">If checked, the playing of the audio file can be interrupted by pressing keys.</td>
-			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
-		</tr>
-        <tr>
 			<td style="border: 1px solid #ddd; padding: 8px;">Barge-in confidence treshhold</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">The minimum transcription confidence that must be reached to barge-in.</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
@@ -173,7 +168,12 @@ The  audio file is subject to caching, which means repeated use of the same URL 
 		</tr>
         <tr>
 			<td style="border: 1px solid #ddd; padding: 8px;">Phrase list from context</td>
-			<td style="border: 1px solid #ddd; padding: 8px;">Context variable that contains a list of phrases that trigger a barge-in.</td>
+			<td style="border: 1px solid #ddd; padding: 8px;">Context variable that contains a list of phrases that trigger a barge-in. If this node contains a phrase list, then it will be merged with the referenced phrase list in the context variable.</td>
+			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
+		</tr>
+        <tr>
+			<td style="border: 1px solid #ddd; padding: 8px;">Barge-in by pressing keys</td>
+			<td style="border: 1px solid #ddd; padding: 8px;">If checked, the playing of the audio file can be interrupted by pressing keys.</td>
 			<td style="border: 1px solid #ddd; padding: 8px;">✔️</td>
 		</tr>
 	</tbody>

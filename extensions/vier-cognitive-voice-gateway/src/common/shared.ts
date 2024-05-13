@@ -18,7 +18,7 @@ import t from '../translations';
  *
  * TODO replace this by an option resolver
  */
-const supportedLanguages: readonly string[] = [
+export const supportedLanguages: readonly string[] = [
   'en-US',
   'en-GB',
   'de-DE',
@@ -84,7 +84,7 @@ const supportedLanguages: readonly string[] = [
 ];
 
 export function languageSelectField(key: string, required: boolean, label: INodeFieldTranslations, description?: INodeFieldTranslations): INodeField {
-  const extraEntries = required ? [] : [{ value: null, label: 'n/a' }];
+  const extraEntries = required ? [] : [{ value: '', label: t.shared.inputLanguageDefaultLabel }];
   const languageEntries = supportedLanguages.map(lang => {
     return { value: lang, label: lang };
   });
@@ -94,11 +94,20 @@ export function languageSelectField(key: string, required: boolean, label: INode
     key: key,
     label: label,
     description: description,
+    defaultValue: '',
     params: {
       required: required,
       options: extraEntries.concat(languageEntries),
     },
   };
+}
+
+
+export function convertLanguageSelect(language: string): string {
+  if (language === '') {
+    return undefined
+  }
+  return language
 }
 
 export interface EndFlowInputs {

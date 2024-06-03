@@ -77,10 +77,10 @@ export default {
             },
         },
         useDefaultToggleDescription: {
-            'default': "Do you want to change the bargeIn settings for this node?",
+            'default': "Do you want to change the barge-in settings for this node?",
         },
         useDefaultToggleLabel: {
-            'default': "Change bargeIn from default?",
+            'default': "Change barge-in from default?",
         },
     },
     bridge: {
@@ -111,7 +111,7 @@ export default {
     },
     changeDefaults: {
         nodeLabel: {
-            'default': "Set Synthesizer (TTS) Defaults",
+            'default': "Set text-to-speech service defaults",
         },
         nodeSummary: {
             'default': "Change the settings used by nodes by default",
@@ -121,17 +121,17 @@ export default {
                 'default': "Do not change",
             },
             reset: {
-                'default': "Reset to Project value",
+                'default': "Reset to project value",
             },
             useValue: {
                 'default': "Set a new default value",
             },
         },
         synthesizersOverwriteStrategyDescription: {
-            'default': "Do you want to change the default synthesizers?",
+            'default': "Do you want to change the default text-to-speech services?",
         },
         synthesizersOverwriteStrategyLabel: {
-            'default': "Change default synthesizers?",
+            'default': "Change default text-to-speech services?",
         },
         ttsBargeInOverwriteStrategyDescription: {
             'default': "This setting overwrites the default barge-in settings.",
@@ -358,10 +358,10 @@ export default {
     },
     shared: {
         changeSynthesizersSwitchDescription: {
-            'default': "Do you want to change the synthesizers settings for this node?",
+            'default': "Do you want to change the text-to-speech service settings for this node?",
         },
         changeSynthesizersSwitchLabel: {
-            'default': "Change synthesizers from default?",
+            'default': "Change text-to-speech services from default?",
         },
         childDefaultLabel: {
             'default': "Default",
@@ -514,13 +514,13 @@ export default {
             'deDE': "Stoppbedingung",
         },
         sectionTtsLabel: {
-            'default': "Synthesizer (TTS) Settings",
+            'default': "Text-to-speech service settings",
         },
         synthesizersDescription: {
-            'default': "See the CVG documentation for the format of the synthesizers list",
+            'default': "See the CVG documentation for the format of the text-to-speech service list",
         },
         synthesizersLabel: {
-            'default': "A list of synthesizers",
+            'default': "A list of text-to-speech services",
         },
     },
     speak: {

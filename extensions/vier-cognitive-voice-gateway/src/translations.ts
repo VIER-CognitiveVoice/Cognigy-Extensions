@@ -134,22 +134,23 @@ export default {
             'default': "Change default synthesizers?",
         },
         ttsBargeInOverwriteStrategyDescription: {
-            'default': "Do you want to overwrite the default bargeIn settings?",
+            'default': "This setting overwrites the default barge-in settings.",
         },
         ttsBargeInOverwriteStrategyLabel: {
-            'default': "Change default bargeIn settings?",
+            'default': "Change default barge-in settings?",
         },
         ttsLanguageDescription: {
-            'default': "Change the default tts language",
+            'default': "Change the default text-to-speech language",
         },
         ttsLanguageLabel: {
-            'default': "Default TTS language",
+            'default': "Default text-to-speech language",
+            'deDE': "Standard-Text-to-Speech-Sprache",
         },
         ttsLanguageOverwriteStrategyDescription: {
-            'default': "Do you want to change the default tts language?",
+            'default': "Do you want to change the default text-to-speech language?",
         },
         ttsLanguageOverwriteStrategyLabel: {
-            'default': "Change default tts language?",
+            'default': "Change default text-to-speech language?",
         },
         ttsSectionLabel: {
             'default': "Text to speech",
@@ -533,6 +534,7 @@ export default {
         },
         languageLabel: {
             'default': "Language",
+            'deDE': "Sprache",
         },
         nodeLabel: {
             'default': "Speak (with SSML formatting)",

@@ -135,6 +135,7 @@ export default {
         },
         ttsBargeInOverwriteStrategyDescription: {
             'default': "This setting overwrites the default barge-in settings.",
+            'deDE': "Diese Einstellung überschreibt die Standardeinstellungen für das Barge-in.",
         },
         ttsBargeInOverwriteStrategyLabel: {
             'default': "Change default barge-in settings?",
@@ -154,6 +155,7 @@ export default {
         },
         ttsSectionLabel: {
             'default': "Text to speech",
+            'deDE': "Text-to-Speech",
         },
     },
     forward: {
@@ -436,7 +438,8 @@ export default {
             'deDE': "Klingelton aktivieren",
         },
         inputLanguageDefaultLabel: {
-            'default': "Use default language",
+            'default': "Use preset language",
+            'deDE': "Voreingestellte Sprache verwenden",
         },
         inputLanguageDescription: {
             'default': "To overwrite the Text-to-Speech language for specific messages, enter the language you want.",
@@ -515,6 +518,7 @@ export default {
         },
         sectionTtsLabel: {
             'default': "Text-to-speech service settings",
+            'deDE': "Text-to-Speech-Dienst-Einstellungen",
         },
         synthesizersDescription: {
             'default': "See the CVG documentation for the format of the text-to-speech service list",

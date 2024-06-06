@@ -112,6 +112,7 @@ export default {
     changeDefaults: {
         nodeLabel: {
             'default': "Set text-to-speech service defaults",
+            'deDE': "Standard für Text-to-Speech-Dienst festlegen",
         },
         nodeSummary: {
             'default': "Change the settings used by nodes by default",
@@ -119,39 +120,48 @@ export default {
         overwriteStrategy: {
             doNotChange: {
                 'default': "Do not change",
+                'deDE': "Nicht ändern",
             },
             reset: {
-                'default': "Reset to project value",
+                'default': "Reset to project settings",
+                'deDE': "Auf Projekteinstellungen zurücksetzen",
             },
             useValue: {
-                'default': "Set a new default value",
+                'default': "Set new language for text-to-speech service",
+                'deDE': "Neue Sprache für Text-to-Speech-Dienst festlegen",
             },
         },
         synthesizersOverwriteStrategyDescription: {
-            'default': "Do you want to change the default text-to-speech services?",
+            'default': "Here you can change the default text-to-speech services. This setting will overwrite the default text-to-speech services.",
+            'deDE': "Hier können Sie die voreingestellten Text-to-Speech-Dienste ändern. Diese Einstellung überschreibt die voreingestellten Text-to-Speech-Dienste.",
         },
         synthesizersOverwriteStrategyLabel: {
-            'default': "Change default text-to-speech services?",
+            'default': "Default text-to-speech services",
+            'deDE': "Standard-Text-to-Speech-Dienste",
         },
         ttsBargeInOverwriteStrategyDescription: {
             'default': "This setting overwrites the default barge-in settings.",
             'deDE': "Diese Einstellung überschreibt die Standardeinstellungen für das Barge-in.",
         },
         ttsBargeInOverwriteStrategyLabel: {
-            'default': "Change default barge-in settings?",
+            'default': "Default barge-in settings",
+            'deDE': "Standardeinstellungen für Barge-in",
         },
         ttsLanguageDescription: {
             'default': "Change the default text-to-speech language",
+            'deDE': "Voreingestellte Text-to-Speech-Sprache ändern",
         },
         ttsLanguageLabel: {
             'default': "Default text-to-speech language",
             'deDE': "Standard-Text-to-Speech-Sprache",
         },
         ttsLanguageOverwriteStrategyDescription: {
-            'default': "Do you want to change the default text-to-speech language?",
+            'default': "Here you can change the default text-to-speech language. This setting will overwrite the default text-to-speech language.",
+            'deDE': "Hier können Sie die Standardsprache für Text-to-Speech ändern. Diese Einstellung überschreibt die voreingestellte Sprache für text-to-Speech.",
         },
         ttsLanguageOverwriteStrategyLabel: {
-            'default': "Change default text-to-speech language?",
+            'default': "Default text-to-speech language",
+            'deDE': "Standard-Text-to-Speech-Sprache",
         },
         ttsSectionLabel: {
             'default': "Text to speech",
@@ -363,7 +373,8 @@ export default {
             'default': "Do you want to change the text-to-speech service settings for this node?",
         },
         changeSynthesizersSwitchLabel: {
-            'default': "Change text-to-speech services from default?",
+            'default': "Set new text-to-speech services",
+            'deDE': "Neue Text-to-Speech-Dienste festlegen",
         },
         childDefaultLabel: {
             'default': "Default",

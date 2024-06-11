@@ -111,7 +111,7 @@ export default {
     },
     changeDefaults: {
         nodeLabel: {
-            'default': "Set text-to-speech service defaults",
+            'default': "Set Text-to-Speech Service Defaults",
             'deDE': "Standard für Text-to-Speech-Dienst festlegen",
         },
         nodeSummary: {

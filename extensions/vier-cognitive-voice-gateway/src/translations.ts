@@ -76,11 +76,9 @@ export default {
                 'deDE': "Barge-in",
             },
         },
-        useDefaultToggleDescription: {
-            'default': "Do you want to change the barge-in settings for this node?",
-        },
         useDefaultToggleLabel: {
-            'default': "Change barge-in from default?",
+            'default': "Overwrite preset",
+            'deDE': "Voreinstellungen überschreiben",
         },
     },
     bridge: {
@@ -111,29 +109,30 @@ export default {
     },
     changeDefaults: {
         nodeLabel: {
-            'default': "Set Text-to-Speech Service Defaults",
-            'deDE': "Standard für Text-to-Speech-Dienst festlegen",
+            'default': "Set presets for nodes",
+            'deDE': "Voreinstellungen für Nodes festlegen",
         },
         nodeSummary: {
-            'default': "Change the settings used by nodes by default",
+            'default': "Set presets of nodes",
+            'deDE': "Voreinstellungen von Nodes ändern",
         },
         overwriteStrategy: {
             doNotChange: {
                 'default': "Do not change",
-                'deDE': "Nicht ändern",
+                'deDE': "Beibehalten",
             },
             reset: {
                 'default': "Reset to project settings",
                 'deDE': "Auf Projekteinstellungen zurücksetzen",
             },
             useValue: {
-                'default': "Set new language for text-to-speech service",
-                'deDE': "Neue Sprache für Text-to-Speech-Dienst festlegen",
+                'default': "Set new language",
+                'deDE': "Neue Sprache festlegen",
             },
         },
         synthesizersOverwriteStrategyDescription: {
-            'default': "Here you can change the default text-to-speech services. This setting will overwrite the default text-to-speech services.",
-            'deDE': "Hier können Sie die voreingestellten Text-to-Speech-Dienste ändern. Diese Einstellung überschreibt die voreingestellten Text-to-Speech-Dienste.",
+            'default': "This setting will overwrite the default text-to-speech services.",
+            'deDE': "Diese Einstellung überschreibt die voreingestellten Text-to-Speech-Dienste.",
         },
         synthesizersOverwriteStrategyLabel: {
             'default': "Default text-to-speech services",
@@ -156,8 +155,8 @@ export default {
             'deDE': "Standard-Text-to-Speech-Sprache",
         },
         ttsLanguageOverwriteStrategyDescription: {
-            'default': "Here you can change the default text-to-speech language. This setting will overwrite the default text-to-speech language.",
-            'deDE': "Hier können Sie die Standardsprache für Text-to-Speech ändern. Diese Einstellung überschreibt die voreingestellte Sprache für text-to-Speech.",
+            'default': "This setting will overwrite the default text-to-speech language.",
+            'deDE': "Diese Einstellung überschreibt die voreingestellte Sprache für Text-to-Speech.",
         },
         ttsLanguageOverwriteStrategyLabel: {
             'default': "Default text-to-speech language",
@@ -369,12 +368,9 @@ export default {
         },
     },
     shared: {
-        changeSynthesizersSwitchDescription: {
-            'default': "Do you want to change the text-to-speech service settings for this node?",
-        },
         changeSynthesizersSwitchLabel: {
             'default': "Set new text-to-speech services",
-            'deDE': "Neue Text-to-Speech-Dienste festlegen",
+            'deDE': "Neuen Text-to-Speech-Dienst festlegen",
         },
         childDefaultLabel: {
             'default': "Default",
@@ -626,8 +622,8 @@ export default {
             'deDE': "Speech-to-Text-Dienst festlegen",
         },
         nodeSummary: {
-            'default': "Speech-to-Text services need to be used to transcribe the expected input in the best possible way",
-            'deDE': "Speech-to-Text-Dienste müssen verwendet werden, um die erwartete Eingabe bestmöglich zu transkribieren",
+            'default': "Change Speech-to-Text services to transcribe the expected input in the best possible way",
+            'deDE': "Speech-to-Text-Dienste wechseln, um die erwartete Eingabe bestmöglich zu transkribieren",
         },
         sectionDynamicProfileSettings: {
             'default': "Dynamic Profile",

@@ -76,6 +76,9 @@ export default {
                 'deDE': "Barge-in",
             },
         },
+        useDefaultToggleDescription: {
+            'default': "Do you want to change the bargeIn settings for this node?",
+        },
         useDefaultToggleLabel: {
             'default': "Overwrite preset",
             'deDE': "Voreinstellungen überschreiben",
@@ -368,6 +371,9 @@ export default {
         },
     },
     shared: {
+        changeSynthesizersSwitchDescription: {
+            'default': "Do you want to change the synthesizers settings for this node?",
+        },
         changeSynthesizersSwitchLabel: {
             'default': "Set new text-to-speech services",
             'deDE': "Neuen Text-to-Speech-Dienst festlegen",

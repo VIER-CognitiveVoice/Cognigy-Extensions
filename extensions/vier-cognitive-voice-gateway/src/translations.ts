@@ -76,9 +76,6 @@ export default {
                 'deDE': "Barge-in",
             },
         },
-        useDefaultToggleDescription: {
-            'default': "Do you want to change the bargeIn settings for this node?",
-        },
         useDefaultToggleLabel: {
             'default': "Overwrite preset",
             'deDE': "Voreinstellungen überschreiben",
@@ -134,23 +131,23 @@ export default {
             },
         },
         synthesizersOverwriteStrategyDescription: {
-            'default': "This setting will overwrite the default text-to-speech services.",
-            'deDE': "Diese Einstellung überschreibt die voreingestellten Text-to-Speech-Dienste.",
+            'default': "Here you can change the presets from your CVG project for the text-to-speech services. This setting overwrites your project settings.",
+            'deDE': "Hier können Sie die Voreinstellungen aus Ihrem CVG-Projekt für die Text-to-Speech-Dienste ändern. Diese Einstellung überschreibt Ihre Projekteinstellungen.",
         },
         synthesizersOverwriteStrategyLabel: {
             'default': "Default text-to-speech services",
             'deDE': "Standard-Text-to-Speech-Dienste",
         },
         ttsBargeInOverwriteStrategyDescription: {
-            'default': "This setting overwrites the default barge-in settings.",
-            'deDE': "Diese Einstellung überschreibt die Standardeinstellungen für das Barge-in.",
+            'default': "Set the default settings for barge-in.",
+            'deDE': "Legen Sie die Standardeinstellungen für Barge-in fest.",
         },
         ttsBargeInOverwriteStrategyLabel: {
             'default': "Default barge-in settings",
             'deDE': "Standardeinstellungen für Barge-in",
         },
         ttsLanguageDescription: {
-            'default': "Change the default text-to-speech language",
+            'default': "Change the preset text-to-speech language",
             'deDE': "Voreingestellte Text-to-Speech-Sprache ändern",
         },
         ttsLanguageLabel: {
@@ -158,8 +155,8 @@ export default {
             'deDE': "Standard-Text-to-Speech-Sprache",
         },
         ttsLanguageOverwriteStrategyDescription: {
-            'default': "This setting will overwrite the default text-to-speech language.",
-            'deDE': "Diese Einstellung überschreibt die voreingestellte Sprache für Text-to-Speech.",
+            'default': "Here you can change the presets from your CVG project for the text-to-speech language. This setting overwrites your project settings.",
+            'deDE': "Hier können Sie die Voreinstellungen aus Ihrem CVG-Projekt für die Text-to-Speech-Sprache ändern. Diese Einstellung überschreibt Ihre Projekteinstellungen.",
         },
         ttsLanguageOverwriteStrategyLabel: {
             'default': "Default text-to-speech language",
@@ -371,9 +368,6 @@ export default {
         },
     },
     shared: {
-        changeSynthesizersSwitchDescription: {
-            'default': "Do you want to change the synthesizers settings for this node?",
-        },
         changeSynthesizersSwitchLabel: {
             'default': "Set new text-to-speech services",
             'deDE': "Neuen Text-to-Speech-Dienst festlegen",

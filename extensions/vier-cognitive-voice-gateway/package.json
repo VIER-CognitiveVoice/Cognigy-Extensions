@@ -17,9 +17,10 @@
     "build": "tsc -p .",
     "lint": "eslint --ext .",
     "lint:fix": "eslint --fix",
-    "rebuild": "npm run-script rm && npm run-script build && npm run-script pack"
+    "rebuild": "npm run-script rm && npm run-script build && npm run-script pack",
+    "upload": "node uploadExtension.js"
   },
-  "devDependencies": {},
+"devDependencies": {},
   "keywords": [
     "VIER",
     "Voice",

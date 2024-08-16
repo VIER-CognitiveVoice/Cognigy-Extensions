@@ -20,7 +20,7 @@
     "rebuild": "npm run-script rm && npm run-script build && npm run-script pack",
     "upload": "node uploadExtension.js"
   },
-"devDependencies": {},
+  "devDependencies": {},
   "keywords": [
     "VIER",
     "Voice",

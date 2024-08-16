@@ -145,7 +145,7 @@ export interface SynthesizersInputsWithToggleToUseDefault extends SynthesizersIn
   changeSynthesizers: boolean,
 }
 
-export function convertSynthesizersRespectToggleToUseDefault(inputs: SynthesizersInputsWithToggleToUseDefault): Array<any> | null {
+export function convertSynthesizersIfChanged(inputs: SynthesizersInputsWithToggleToUseDefault): Array<any> | null {
   if (!inputs.changeSynthesizers) {
     return null
   }

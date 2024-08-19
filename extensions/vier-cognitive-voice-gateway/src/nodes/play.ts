@@ -88,13 +88,9 @@ export const playNode = createNodeDescriptor({
       status: 'play',
       url: config.url,
       mode: playInBackgroundToMode(config.playInBackground),
-      bargeIn: undefined,
-      fallbackText: undefined,
+      bargeIn: config.playInBackground ? undefined : convertBargeInIfChanged(api, config),
+      fallbackText: config.playInBackground ? undefined : normalizeText(config.fallbackText),
     };
-    if (!config.playInBackground) {
-      payload.bargeIn = convertBargeInIfChanged(api, config)
-      payload.fallbackText = normalizeText(config.fallbackText)
-    }
 
     api.say('', payload);
   },

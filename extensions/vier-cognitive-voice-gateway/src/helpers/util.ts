@@ -22,7 +22,7 @@ export function normalizeTextArray(texts: Array<string | undefined> | string | u
     if (normalizedText === undefined) {
       return undefined
     }
-    return [normalizeText(texts)];
+    return [normalizedText];
   }
   if (!Array.isArray(texts) || texts.length === 0) {
     return undefined;

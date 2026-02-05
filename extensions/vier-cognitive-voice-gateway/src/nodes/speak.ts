@@ -368,8 +368,7 @@ export const speakNode = createNodeDescriptor({
             return
         }
 
-        const speakTagMissing =
-            !normalizedText.startsWith("<speak>") || !normalizedText.endsWith("</speak>")
+        const speakTagMissing = !normalizedText.startsWith("<speak")
         const text = speakTagMissing ? `<speak>${normalizedText}</speak>` : normalizedText
 
         const payload = {
